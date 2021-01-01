@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rentcar"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E1DF2439">
+
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="105dp"
+                android:layout_height="105dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/apptenticon" />
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/kulimpark_bold"
+                android:text="RentiCar"
+                android:textColor="#ffff"
+                android:textSize="40sp" />
+
+            <Button
+                android:layout_width="298dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="68dp"
+                android:background="@drawable/signinbtn"
+                android:fontFamily="@font/kulimpark_semibold"
+                android:text="Sign in"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/sign_up_btn"
+                android:layout_width="298dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/sginout"
+                android:fontFamily="@font/kulimpark_semibold"
+                android:text="Sign up"
+                android:textAllCaps="false"
+                android:textColor="#EC273D"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="28dp"
+            android:fontFamily="@font/kulimpark_light"
+            android:gravity="center"
+            android:text="RentiCar Apps v1.00"
+
+            android:textColor="#ffff"
+            android:textSize="12sp"
+
+
+            />
+
+    </RelativeLayout>
+</RelativeLayout>

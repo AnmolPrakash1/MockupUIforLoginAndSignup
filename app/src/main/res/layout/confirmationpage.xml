@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="22dp"
+    >
+    <TextView
+        android:layout_marginTop="79dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirmation"
+        android:textSize="30dp"
+        android:textColor="#EC273D"
+        android:fontFamily="@font/kulimpark_bold"
+        />
+       <TextView
+           android:layout_marginTop="36dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Contrary to popular belief ,Lorem ipsum is simply or random text.It has roots in a piece"
+          android:textColor="#86050632"
+           android:fontFamily="@font/kulimpark_regular"
+           android:textSize="14sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/edittextbg"
+        android:fontFamily="@font/kulimpark_regular"
+        android:hint="234 567 890 "
+        android:paddingStart="22dp"
+
+
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/next_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/registerbtn"
+        android:text="Next"
+        android:textColor="#ffff"
+        android:textSize="18sp"
+        android:textAllCaps="false"/>
+
+
+    <LinearLayout
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+
+        >
+        <TextView
+            android:textSize="14sp"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Didn't recieve the code? "
+            android:fontFamily="@font/kulimpark_regular"
+            android:textColor="#3E050632"
+
+            />
+        <TextView
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/kulimpark_regular"
+            android:textColor="#EC273D"
+            android:text="Resend Code"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

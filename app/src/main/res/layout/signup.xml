@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="22dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="48dp"
+        android:fontFamily="@font/kulimpark_bold"
+        android:text="Sign up"
+        android:textColor="#EC273D"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kulimpark_semibold"
+                android:text="First Name:"
+                android:textColor="#050632"
+                android:textSize="18sp"/>
+
+            <LinearLayout
+                android:id="@+id/ll_category_list"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edittextbg"
+                    android:fontFamily="@font/kulimpark_semibold"
+                    android:hint="Anmol"
+                    android:paddingStart="22dp"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kulimpark_semibold"
+                android:text="Last Name:"
+                android:textColor="#050632"
+                android:textSize="18sp" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/edittextbg"
+                android:fontFamily="@font/kulimpark_semibold"
+                android:hint="Prakash"
+                android:paddingStart="22dp"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/kulimpark_semibold"
+            android:text="Email:"
+            android:textColor="#050632"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edittextbg"
+            android:fontFamily="@font/kulimpark_semibold"
+            android:hint="anmolp25@gmail.com"
+            android:inputType="textEmailAddress"
+            android:paddingStart="22dp"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/kulimpark_semibold"
+            android:text="Password:"
+            android:textColor="#050632"
+            android:textSize="18sp" />
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edittextbg"
+            android:fontFamily="@font/kulimpark_semibold"
+            android:hint="*******"
+            android:inputType="text"
+            android:padding="8dp"
+
+
+            android:paddingStart="22dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="13dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="13dp"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/kulimpark_semibold"
+            android:text="Country:"
+
+            android:textColor="#050632"
+            android:textSize="18sp" />
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edittextbg"
+            android:fontFamily="@font/kulimpark_semibold"
+            android:hint="India"
+            android:inputType="text"
+            android:paddingStart="22dp"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/kulimpark_semibold"
+            android:text="Phone:"
+            android:textColor="#050632"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edittextbg"
+            android:fontFamily="@font/kulimpark_semibold"
+            android:hint="9876543210"
+            android:inputType="text"
+            android:paddingStart="22dp"
+            android:textSize="14sp" />
+
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/registerbtn"
+        android:fontFamily="@font/kulimpark_semibold"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/kulimpark_semibold"
+            android:text="All Ready an have account? "
+            android:textColor="#3C050632"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="6dp"
+            android:fontFamily="@font/kulimpark_semibold"
+            android:text="Sign up"
+            android:textColor="#EC273D"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
